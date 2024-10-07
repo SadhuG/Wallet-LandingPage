@@ -3,7 +3,7 @@ import heroImage from "../assets/heroImage.png";
 export const Hero = () => {
 	return (
 		<section
-			className="flex justify-center px-5 py-12 min-[720px]:px-20 md:py-20 h-[90vh] sm:h-full bg-bottom bg-no-repeat bg-contain"
+			className="flex justify-center px-5 py-12 min-[720px]:px-20 md:py-20 h-full bg-bottom bg-no-repeat bg-contain"
 			style={{ backgroundImage: `url(${heroImage})` }}
 		>
 			<div className="flex flex-col justify-start items-center gap-16">

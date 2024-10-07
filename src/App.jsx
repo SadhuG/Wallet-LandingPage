@@ -10,7 +10,7 @@ import { TestimonialSection } from "./components/TestimonialSection";
 export default function App() {
 	return (
 		<>
-			<header className=" h-screen flex flex-col">
+			<header className=" h-[90vh] sm:h-screen flex flex-col">
 				<Navbar />
 				<Hero />
 			</header>
